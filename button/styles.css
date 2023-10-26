@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+#myButton {
+    color: green;
+}
+
+.my-button {
+    color: pink;
+}
+
+button {
+    color: blue;
+}

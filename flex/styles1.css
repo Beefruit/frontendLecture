@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+* {
+    box-sizing: border-box;
+}
+.flex-container {
+    display:flex;
+    background-color: yellow;
+    padding: 20px;
+    max-width: 1000px;
+    height: 1000px;
+    border: 2px solid green;
+    justify-content: center;
+    flex-wrap: nowrap;
+    overflow: visible;
+    align-items: stretch;
+}
+
+.flex-item:nth-child(1) {
+    background-color: green;
+    flex-shrink: 0;
+    flex-basis: 150px;
+}
+.flex-item:nth-child(2) {
+    background-color: crimson;
+    width: 100%;
+    align-self: center;
+}
+.flex-item:nth-child(3) {
+    background-color: blue;
+}
